@@ -1,0 +1,68 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.qr-card {
+  margin: 6em 2em 2em 2em;
+  display: grid;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 3%;
+}
+.qr-card img {
+  padding: 1em;
+  border-radius: 7%;
+  width: 100%;
+}
+
+.qr-card-title {
+  font-weight: 700;
+  color: hsl(218deg, 44%, 22%);
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.qr-card-text {
+  padding: 1em;
+  font-weight: 400;
+  color: hsl(220deg, 15%, 55%);
+  font-size: 15px;
+  padding: 0.5em 2em 2em 2em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media only screen and (min-width: 1200px) {
+  .qr-card {
+    margin: 6em 2em 2em 2em;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 3%;
+    width: 25vw;
+  }
+  .qr-card img {
+    padding: 1em;
+    border-radius: 7%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
